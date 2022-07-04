@@ -1,4 +1,4 @@
-# declaring array containing list of names
+# Declaring an array containing list of names
 my_array = ['abdi', 'ali', 'ashia', 'fartun']
 
 print(my_array[2]) # -> ashia

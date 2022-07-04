@@ -1,14 +1,14 @@
-"""
-    Let's assume that we have two sorted array and we would like to merge both arrays
-
-    arr1 = [1,3,5,7]
-    arr2 = [2,4,6,8]
-
-    output = [1,2,3,4,5,6,7,8]
-"""
-
 def mergeTwoSortedArrays(arr1, arr2) -> []:
-    # we want to loop through both arrays
+    """
+    We loop through both arrays, comparing the first element of each array. We append the smaller
+    element to our output array, and increment the index of the array from which we took the element. We
+    repeat this process until we have exhausted one of the arrays, at which point we append every
+    remaining element in the non-exhausted array to our output array
+    
+    :param arr1: [1, 3, 5, 7]
+    :param arr2: [2, 4, 6, 8]
+    :return: [1, 2, 3, 4, 5, 6, 7, 8]
+    """
     output = []
     i = 0
     j = 0
