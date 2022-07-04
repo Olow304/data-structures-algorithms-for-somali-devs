@@ -1,5 +1,5 @@
 # data-structures-algorithms-for-somali-devs
-A Collection of Algorithms And Data Structures in Python for Somali developers
+A Collection of Algorithms And Data Structures in (Python, Java, and JavaScript) for Somali developers
 
 Algorithms and data structures are two essential topics in computer science. Algorithms are the rules used to solve a problem, while data structures are how data is organized. Both topics are vital for any programmer to understand. In this project, you will explore algorithms and data structures by implementing various algorithms and testing their efficiency. You will also learn to use different data structures to store information efficiently.
 
