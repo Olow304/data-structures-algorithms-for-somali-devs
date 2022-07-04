@@ -7,7 +7,7 @@
     output = [1,2,3,4,5,6,7,8]
 """
 
-def mergeTwoSortedArrays(arr1, arr2):
+def mergeTwoSortedArrays(arr1, arr2) -> []:
     # we want to loop through both arrays
     output = []
     i = 0
