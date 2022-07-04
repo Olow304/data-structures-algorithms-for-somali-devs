@@ -16,7 +16,7 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
-    def print_linked_list(self):
+    def print_linked_list(self) -> None:
         """
         We start at the head of the linked list and print each value until we reach the end of the
         linked list
@@ -196,7 +196,7 @@ class LinkedList:
         self.length -= 1
         return temp
     
-    def reverse_nodes(self):
+    def reverse_nodes(self) -> None:
         """
         We swap the head and tail, then we iterate through the list, setting the next node to the
         previous node, and then setting the previous node to the current node
